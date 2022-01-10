@@ -6,15 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
 
-    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+
     <script type="text/javascript" defer src="main.js"></script>
   </head>
 
   <body>
     <div class="container">
       <div class="calculator">
-        <div class="calculator__display">Display</div>
-        <div class="calculator__keys">Keys</div>
+        <div class="calculator__display">0</div>
+        <div class="calculator__keys">
+          <div class="key one">1</div>
+          <div class="key two">2</div>
+          <div class="key three">3</div>
+          <div class="key four">4</div>
+          <div class="key five">5</div>
+          <div class="key six">6</div>
+          <div class="key seven">7</div>
+          <div class="key eight">8</div>
+          <div class="key nine">9</div>
+          <div class="key zero">0</div>
+
+          <div class="key divide operator">&divide;</div>
+          <div class="key times operator">&times;</div>
+          <div class="key minus operator">&minus;</div>
+          <div class="key plus operator">&plus;</div>
+          <div class="key decimal">&dot;</div>
+          <div class="key equals">&equals;</div>
+          <div class="key clear">C</div>
+          <div class="key delete"><img src="./assets/delete.svg" /></div>
+        </div>
       </div>
     </div>
   </body>
