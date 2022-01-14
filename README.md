@@ -31,6 +31,6 @@
  * All the code was formatted automatically by the **Prettier** VsCode extension. 
 
 ## Author
-#### Jose Furtado
+#### Name: Jose Furtado
 - LinkedIn - [https://www.linkedin.com/in/jose-digiweb/](https://www.linkedin.com/in/jose-digiweb/)
 - GitHub - [https://github.com/jose-digiweb](https://github.com/jose-digiweb)
