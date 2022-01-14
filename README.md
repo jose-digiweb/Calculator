@@ -13,9 +13,9 @@
 #### Everything that is needed for this app to work is listed inside the package.json file, just follow the steps bellow:
 1. Open the terminal on the project **root directory**,
 2. Run the script: **npm install**,
-3. Run the script: **npm start**,
+3. Run the script: **npm start**, (On production, change the script: **npm start** to **npm build**),
 4. The App will be ready to use on **localhost** using the **port** provided by Parcel (usually "1234") that will be logged into the terminal after the build process finishes.
-**Note:** On production, change the script: **npm start** to **npm build**.
+
 ### Code formatting and documentation
  * First of all, I did my best to write the most self-documented code possible, as it should be.
  * Besides that, I used **inline comments** where was needed, so I can provide a more clear understanding of the purpose of every snipped as well as **methods**, the **inputs**, and what **output** they should produce.
