@@ -1,10 +1,10 @@
 # Calculator App project
 ### This App allows users to perform all the basic operations, such as:
+- Division,
 - Addition,
 - Subtraction,
 - Multiplication,
-- Division,
-- Use decimals,
+- Decimal operations,
 - Multiple operations at once. 
 #### It also has a second display that shows users the calculation that has been made and the main display that shows the result of that calculation.
 
