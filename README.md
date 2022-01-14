@@ -1,4 +1,11 @@
 # Calculator project
+#### This is a calculator App that allows users to perform all the basics operations, such as:
+- Addition,
+- Subtraction,
+- Multiplication,
+- Division,
+- Use decimals,
+- Multiple operations at once. 
 
 ### This project was created using the fllowing technologies:
 * HTML,
