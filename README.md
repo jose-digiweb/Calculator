@@ -29,3 +29,8 @@
  * First of all, I did my best to write the most self-documented code possible, as it should be.
  * Besides that, I used **inline comments** where was needed, so I can provide a more clear understanding of the purpose of every snipped as well as **methods**, the **inputs**, and what **output** they should produce.
  * All the code was formatted automatically by the **Prettier** VsCode extension. 
+
+## Author
+#### Jose Furtado
+- LinkedIn - [https://www.linkedin.com/in/jose-digiweb/](https://www.linkedin.com/in/jose-digiweb/)
+- GitHub - [https://github.com/jose-digiweb](https://github.com/jose-digiweb)
