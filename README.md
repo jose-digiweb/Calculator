@@ -16,6 +16,6 @@
 3. Run the script: **npm start**,
 4. The App will be ready to use on **localhost** using the **port** provided by Parcel (usually "1234") that will be logged into the terminal after the build process finishes.
 ### Code formatting and documentation
-##### First of all, I did my best to write the most self-documented code possible, as it should be.
-##### Besides that, I used **inline comments** where was needed, so I can provide a more clear understanding of the purpose of every snipped as well as **methods**, the **inputs** and what **output** they should produce.
-##### All the code was formatted automatically by the **Prettier** VsCode extension. 
+ First of all, I did my best to write the most self-documented code possible, as it should be.
+ Besides that, I used **inline comments** where was needed, so I can provide a more clear understanding of the purpose of every snipped as well as **methods**, the **inputs** and what **output** they should produce.
+ All the code was formatted automatically by the **Prettier** VsCode extension. 
