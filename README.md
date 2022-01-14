@@ -11,7 +11,7 @@
 - Parcel also compiles and transpile the javascript code by default for the most basic usecases.
 ## How to use the App
 #### Everything that is needed for this app to work is listed inside the package.json file, just follow the steps bellow:
-1. Open the terminal on the project root directory,
+1. Open the terminal on the project **root directory**,
 2. Run the script: **npm install**,
 3. Run the script: **npm start**,
 4. The App will be ready to use on **localhost** using the **port** provided by Parcel (usually "1234") that will be logged into the terminal after the build process finishes.
