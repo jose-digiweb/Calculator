@@ -15,7 +15,7 @@
 2. Run the script: **npm install**,
 3. Run the script: **npm start**,
 4. The App will be ready to use on **localhost** using the **port** provided by Parcel (usually "1234") that will be logged into the terminal after the build process finishes.
-* **Note:** In production, change the script: **npm start** to **npm build** for better a performance.
+* **Note:** In production, change the script: **npm start** to **npm build** for a better performance.
 
 ### Code formatting and documentation
  * First of all, I did my best to write the most self-documented code possible, as it should be.
