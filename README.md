@@ -1,1 +1,1 @@
-* Calculator project
+# Calculator project
