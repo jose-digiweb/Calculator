@@ -13,4 +13,4 @@
 #### Everything that is needed for this app to work is listed inside the package.json file, just follow the steps bellow:
 1. Run npm install,
 2. Run npm start,
-3. Go to the port provided by parcel in the terminal log and use the app.
+3. The App will be ready to use on **localhost** using the **port** provided by Parcel (usually "1234") that will be logged into the terminal after the build process finishes.
