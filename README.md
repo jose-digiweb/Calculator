@@ -6,6 +6,7 @@
 - Division,
 - Use decimals,
 - Multiple operations at once. 
+#### It also has a second display that shows users the calculation that has been made and the main display that shows the result of that calculation.
 
 ### This project was created using the fllowing technologies:
 * HTML,
