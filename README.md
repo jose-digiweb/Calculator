@@ -5,8 +5,7 @@
 * CSS,
 * Javascript
 
-### This project uses Parcel js to build and bundle all HTML, CSS and Javascript code.
-#### Some descriptionsL:
-- Parcel minifies the css code by default using nanocss,
-- I needed to setup the autoprefixer plugin using the postcss config file for cross browser suport,
-- Parcel also compile and transpile the javascript code by default for the most basic usecases 
+### This project uses Parcel js to build and bundle all the HTML, CSS and Javascript code.
+#### Descriptions:
+- Parcel minifies the CSS code by default using cssnano, but I needed to set up the autoprefixer plugin manualy using the postcss config file for cross-browser support, and added the browserslistrc config file for extra support setups.
+- Parcel also compiles and transpile the javascript code by default for the most basic usecases.
