@@ -1,5 +1,5 @@
-# Calculator project
-#### This is a calculator App that allows users to perform all the basics operations, such as:
+# Calculator App project
+### This App that allows users to perform all the basics operations, such as:
 - Addition,
 - Subtraction,
 - Multiplication,
