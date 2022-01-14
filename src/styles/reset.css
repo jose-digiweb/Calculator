@@ -62,7 +62,7 @@ textarea {
 input,
 textarea,
 button {
-  border: 1px solid gray;
+  border: none;
 }
 
 /* Some defaults for one-liner buttons */
@@ -88,35 +88,4 @@ object,
 embed {
   display: block;
   max-width: 100%;
-}
-
-/*******************
- Useful table styles
- *******************/
-table {
-  table-layout: fixed;
-  width: 100%;
-}
-
-/*******************
- The hidden attribute
- *******************/
-[hidden] {
-  display: none !important;
-}
-
-/*******************
- Noscript
- *******************/
-noscript {
-  display: block;
-  margin-bottom: 1em;
-  margin-top: 1em;
-}
-
-/*******************
- Focus
- *******************/
-[tabindex='-1'] {
-  outline: none !important;
 }

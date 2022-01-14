@@ -2,10 +2,16 @@
   "name": "calculator",
   "version": "1.0.0",
   "description": "Calculator project for a technical interview at Copernica.",
-  "main": "index.js",
+  "main": "./src/js/main.js",
+  "source": "./index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel",
+    "build": "parcel build"
   },
   "author": "Jose Furtado",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "parcel": "^2.1.1"
+  }
 }

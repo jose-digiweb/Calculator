@@ -13,38 +13,59 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="styles/normalize.css" />
-    <link rel="stylesheet" href="styles/reset.css" />
-    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="src/styles/main.css" />
 
-    <script type="text/javascript" defer src="main.js"></script>
+    <script type="module" defer src="src/js/main.js"></script>
   </head>
 
   <body>
-    <div class="container">
-      <div class="calculator">
-        <div class="calculator__display">0</div>
-        <div class="calculator__keys">
-          <div class="key one">1</div>
-          <div class="key two">2</div>
-          <div class="key three">3</div>
-          <div class="key four">4</div>
-          <div class="key five">5</div>
-          <div class="key six">6</div>
-          <div class="key seven">7</div>
-          <div class="key eight">8</div>
-          <div class="key nine">9</div>
-          <div class="key zero">0</div>
+    <noscript>
+      <p class="noscript">This page needs Javascript for the calculator to work!</p>
+    </noscript>
 
-          <div class="key divide operator">&divide;</div>
-          <div class="key times operator">&times;</div>
-          <div class="key minus operator">&minus;</div>
-          <div class="key plus operator">&plus;</div>
-          <div class="key decimal">&dot;</div>
-          <div class="key equals">&equals;</div>
-          <div class="key clear">C</div>
-          <div class="key delete"><img src="./assets/delete.svg" /></div>
-        </div>
+    <div class="calculator">
+      <div class="calculator-display">
+        <div class="small-display"></div>
+        <div class="main-screen">0</div>
+      </div>
+
+      <div class="calculator-keys">
+        <button data-type="number" class="key one">1</button>
+        <button data-type="number" class="key two">2</button>
+        <button data-type="number" class="key three">3</button>
+        <button data-type="number" class="key four">4</button>
+        <button data-type="number" class="key five">5</button>
+        <button data-type="number" class="key six">6</button>
+        <button data-type="number" class="key seven">7</button>
+        <button data-type="number" class="key eight">8</button>
+        <button data-type="number" class="key nine">9</button>
+        <button data-type="number" class="key zero">0</button>
+        <button data-type="decimal" class="key decimal">.</button>
+
+        <button data-type="operator" data-operator="times" class="key">
+          &times;
+        </button>
+        <button data-type="operator" data-operator="minus" class="key">
+          &minus;
+        </button>
+        <button data-type="operator" data-operator="plus" class="key">&plus;</button>
+        <button data-type="operator" data-operator="division" class="key">
+          &divide;
+        </button>
+
+        <button data-type="equals" class="key equals">&equals;</button>
+        <button data-type="clear" class="key clear">C</button>
+        <button data-type="delete" class="key delete">
+          <!-- To prevent issues on using event delegation in javascript, 
+               i need to set the same data-type and class to the image as well. 
+          -->
+          <img
+            data-type="delete"
+            class="key"
+            src="./assets/delete.svg"
+            alt="Delete button"
+          />
+        </button>
       </div>
     </div>
   </body>
