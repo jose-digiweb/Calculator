@@ -66,9 +66,6 @@ class Calculator {
         // Updates the mainDisplay
         return (mainDisplay.textContent = this.#state.firstInput.join(''));
       }
-      if (this.#state.firstInput.length === 0) {
-        return (mainDisplay.textContent = 0);
-      }
     }
 
     if (this.#state.secondInput.length > 0) {
@@ -200,7 +197,7 @@ class Calculator {
     if (input.dataset.type === 'equals') {
       const result = this.#calculate();
 
-      this.#state.firstInput = [];
+      this.#state.firstInput = [result];
       this.#state.secondInput = [];
       this.#state.operator = '';
       this.#state.newOperator = '';
