@@ -5,8 +5,8 @@
 - Subtraction,
 - Multiplication,
 - Decimal operations,
-- Multiple operations at once. 
-#### It also has a second display that shows users the calculation that has been made and the main display that shows the result of that calculation.
+- Combined multiple operations at once. 
+#### It also has a second display that shows users the calculation that has been made and the main display that shows the result of that calculation. The App is also fully responsive.
 
 ### This project was created using the fllowing technologies:
 * HTML,
@@ -15,7 +15,7 @@
 
 ### This project uses Parcel js to build and bundle all the HTML, CSS and Javascript code.
 #### Descriptions:
-- In production, **parcel** minifies the CSS code by default using **cssnano**, i only needed to set up the **autoprefixer** plugin manualy using the **postcss** config file for cross-browser support, and added the **browserslistrc** config file for extra support setups.
+- In production, **parcel** minifies the CSS code by default using **cssnano**, i only needed to set up the **autoprefixer** plugin manualy using the **postcss** config file for cross-browser support, and added the **browserslistrc** config file for some extra support setups.
 - Parcel also compiles and transpile the javascript code by default for the most basic usecases.
 ## How to use the App
 #### Everything that is needed for this app to work is listed inside the package.json file, just follow the steps bellow:
