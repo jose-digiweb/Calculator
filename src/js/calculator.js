@@ -41,7 +41,10 @@ class Calculator {
 
   // Does format the calculation result to a more user-friendly number format
   #formatNumber(number) {
-    const result = number.toLocaleString(undefined, { maximumFractionDigits: 12 });
+    const result = Number(number).toLocaleString(undefined, {
+      maximumFractionDigits: 12,
+      minimumFractionDigits: 0,
+    });
 
     return result;
   }
@@ -86,15 +89,12 @@ class Calculator {
   // Renders the First Inputs, the Operator, and the Second Inputs on the Small Display.
   #renderSmallDisplay() {
     const smallDisplay = this.#calculatorSmallDisplay;
+    const { firstInput, secondInput, operator } = this.#state;
 
     smallDisplay.textContent = `
-      ${this.#state.firstInput.join('') || ''}
-      ${
-        this.#state.secondInput.length > 0
-          ? this.#convertOperator(this.#state.operator)
-          : ''
-      }
-      ${this.#state.secondInput.join('') || ''}
+      ${this.#formatNumber(firstInput.join('')) || ''}
+      ${secondInput.length > 0 ? this.#convertOperator(operator) : ''}
+      ${this.#formatNumber(secondInput.join('')) || ''}
       `;
   }
 
@@ -154,7 +154,7 @@ class Calculator {
         mainDisplay.textContent = firstInput[0];
       }
       if (firstInput.length > 1) {
-        mainDisplay.textContent = firstInput.join('');
+        mainDisplay.textContent = this.#formatNumber(firstInput.join(''));
       }
 
       // Renders the firstInputs, the operator, and the secondInputs to the smallDisplay
@@ -210,9 +210,8 @@ class Calculator {
       const result = this.#calculate();
 
       this.#state.operator = this.#state.newOperator;
-      this.#state.firstInput = [];
+      this.#state.firstInput = [result];
       this.#state.secondInput = [];
-      this.#state.firstInput.push(result);
 
       this.#handleDisplayRender(input, result);
     }
