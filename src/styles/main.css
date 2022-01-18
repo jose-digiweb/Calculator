@@ -97,6 +97,7 @@ body {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(4, auto);
+  background-color: var(--displayBg);
   grid-gap: 1px;
   grid-template-areas:
     'divide times minus delete'
