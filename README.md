@@ -5,7 +5,7 @@
 - Subtraction,
 - Multiplication,
 - Decimal operations,
-- Multiple operations at once. 
+- Combined multiple operations at once. 
 #### It also has a second display that shows users the calculation that has been made and the main display that shows the result of that calculation. The App is also fully responsive.
 
 ### This project was created using the fllowing technologies:
