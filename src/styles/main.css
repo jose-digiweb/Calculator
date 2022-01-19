@@ -98,7 +98,8 @@ body {
   display: grid;
   grid-template-columns: repeat(4, auto);
   background-color: var(--displayBg);
-  grid-gap: 1px;
+  grid-gap: 2px;
+  padding: 0 0.2rem 0.2rem 0.2rem;
   grid-template-areas:
     'divide times minus delete'
     'seven eight nine plus'
@@ -186,5 +187,9 @@ body {
 [data-type='delete'],
 [data-type='equals'] {
   background-color: var(--operatorsBg);
+  color: var(--operatorsSign);
+}
+
+[data-type='clear'] {
   color: var(--operatorsSign);
 }

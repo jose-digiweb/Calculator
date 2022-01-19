@@ -73,10 +73,6 @@ button {
   background-color: transparent;
 }
 
-button * {
-  pointer-events: none;
-}
-
 /***********************************
  Easy responsive for media elements
  ***********************************/
